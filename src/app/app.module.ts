@@ -9,10 +9,10 @@ import { SharedModule } from './shared/shared.module';
 import { AppComponent } from './app.component';
 import { provideHttpClient } from '@angular/common/http';
 
-
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
   ],
   imports: [
     BrowserModule,

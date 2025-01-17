@@ -38,6 +38,7 @@ export class GifsService {
     this._tagsHistory = this.tagsHistory.splice(0,10);
     this.saveLocalStorage();
 
+
   }
 
   private saveLocalStorage():void {
